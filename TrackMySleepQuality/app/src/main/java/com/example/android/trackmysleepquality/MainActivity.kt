@@ -18,6 +18,7 @@ package com.example.android.trackmysleepquality
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.theartofdev.edmodo.cropper.CropImage
 
 
 /**
@@ -48,5 +49,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
+        
+        CropImage.activity()
     }
 }
